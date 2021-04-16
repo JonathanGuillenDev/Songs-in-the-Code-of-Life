@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs in the Code of Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="assets/images/intro-bg.png" id="background" />
+    <audio src="assets/audio/isnt-C-lovely.mp3" id="song"></audio>
+
+    <div class="container">
+        <div class="box"></div>
+        <img src="assets/images/intro-bg.png" id="thumbnail" />
+        <img src="assets/icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="assets/icons/next-track.png" onclick="nextSong()" id="next-song" />
+        <img src="assets/icons/previous-track.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">Songs in the Code of Life</div>
+        <div class="song-title">Isn't C Lovely</div>
+
+        <input type="range" id="progress-bar" min="0" max="" value="0" onchange="changeProgressBar()" />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+    <script src="player.js"></script>
+
+
+</body>
+
+</html>
