@@ -25,7 +25,7 @@ songIndex = 0;
                 'Songs in the Code of Life']; // object storing track artists
 
     songTitles = ["Isn't C Lovely?", "1nt in a b0x ft. MC Da P-C", "How deep is your loop?", "B1G D3C1MAL$", "Classless Method()",
-                "HTTP", "chop spaghetti", "HTML", "Every JS wants to Vue the World"]; // object storing track titles
+                "HTTP", "chop spaghetti", "HTML", "Vue the World"]; // object storing track titles
 
 // function where pp (play-pause) element changes based on playing boolean value - if play button clicked, change pp.src to pause button and call song.play() and vice versa.
 let playing = true;
