@@ -16,9 +16,9 @@ songIndex = 0;
             './assets/audio/big-decimals.mp3', './assets/audio/classless-method.mp3','./assets/audio/int-in-a-box.mp3' , 
             './assets/audio/chop-spaghetti.mp3', './assets/audio/HTML.mp3', './assets/audio/everybody.mp3']; // object storing paths for audio objects
 
-    thumbnails = ['./assets/images/intro-bg.png', './assets/images/http-bg.jpg', './assets/images/how-deep-bg.png',
+    thumbnails = ['./assets/images/intro-bg.png', './assets/images/http-bg.jpg', './assets/images/how-deep-bg.jpg',
                 './assets/images/big-decimals-bg.png', './assets/images/classless-method-bg.jpg', './assets/images/int-bg.jpg',
-                './assets/images/chop-spaghetti-bg.jpg', './assets/images/HTML-bg.png', './assets/images/every-js-bg.png']; // object storing paths for album covers and backgrounds
+                './assets/images/chop-spaghetti-bg.jpg', './assets/images/HTML-bg.jpg', './assets/images/every-js-bg.jpg']; // object storing paths for album covers and backgrounds
 
     songArtists = ['Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life',
                 'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life',
