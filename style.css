@@ -188,7 +188,7 @@ body {
 
 @media screen and (max-height: 500px) {
     .container {
-        height: 320pt;
+        height: 310pt;
         width: 280pt;
     } 
 }
