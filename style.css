@@ -21,8 +21,8 @@ body {
 /* container for music player */
 .container {
     position: absolute;
-    height: 380pt;
-    width: 300pt;
+    height: 353pt;
+    width: 280pt;
     margin: auto;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@ body {
     color: rgb(214, 245, 120);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     bottom: 20%;
     left: 24%;
 }
@@ -74,7 +74,7 @@ body {
     z-index: 4;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     bottom: 15%;
     left: 24%;
 }
@@ -184,4 +184,11 @@ body {
 /* style to remove blue shade of the progress bar when clicked on/selected */
 #progress-bar:focus {
     outline: none;
+}
+
+@media screen and (max-height: 400px) {
+    .container {
+        height: 273pt;
+        width: 280pt;
+    } 
 }
