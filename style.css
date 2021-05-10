@@ -191,4 +191,7 @@ body {
         height: 310pt;
         width: 280pt;
     } 
+    #progress-bar {
+        bottom: 10.5%;
+}
 }
