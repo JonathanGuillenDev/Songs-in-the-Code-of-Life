@@ -188,7 +188,7 @@ body {
 
 @media screen and (max-height: 500px) {
     .container {
-        height: 310pt;
+        height: 308pt;
         width: 280pt;
     } 
     #progress-bar {
