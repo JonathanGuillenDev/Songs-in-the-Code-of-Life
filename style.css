@@ -21,8 +21,8 @@ body {
 /* container for music player */
 .container {
     position: absolute;
-    height: 371pt;
-    width: 295pt;
+    height: 350pt;
+    width: 277pt;
     margin: auto;
     top: 0;
     left: 0;
@@ -89,7 +89,7 @@ body {
     bottom: 14%;
     z-index: 4;
     font-size: 53px;
-    left: 7%;
+    left: 6.5%;
 }
 
 /* style for next and previous song images */
@@ -106,12 +106,12 @@ body {
 
 /* unique style for next song image */
 #next-song {
-    right: 10%;
+    right: 9.5%;
 }
 
 /* unique style for previous song image */
 #previous-song {
-    right: 10.3%;
+    right: 9.5%;
     bottom: 19%;
 }
 
