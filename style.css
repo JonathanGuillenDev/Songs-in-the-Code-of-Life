@@ -89,7 +89,7 @@ body {
     bottom: 14%;
     z-index: 4;
     font-size: 53px;
-    left: 6.5%;
+    left: 5%;
 }
 
 /* style for next and previous song images */
@@ -106,12 +106,12 @@ body {
 
 /* unique style for next song image */
 #next-song {
-    right: 9.5%;
+    right: 8.5%;
 }
 
 /* unique style for previous song image */
 #previous-song {
-    right: 9.5%;
+    right: 8.5%;
     bottom: 19%;
 }
 
