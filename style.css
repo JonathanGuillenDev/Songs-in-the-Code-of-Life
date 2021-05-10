@@ -21,8 +21,8 @@ body {
 /* container for music player */
 .container {
     position: absolute;
-    height: 353pt;
-    width: 280pt;
+    height: 371pt;
+    width: 295pt;
     margin: auto;
     top: 0;
     left: 0;
@@ -186,7 +186,7 @@ body {
     outline: none;
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 500px) {
     .container {
         height: 273pt;
         width: 280pt;
