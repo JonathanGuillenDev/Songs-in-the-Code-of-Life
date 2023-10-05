@@ -13,19 +13,15 @@ songIndex = 0;
 
 
     songs = ['./assets/audio/isnt-C-lovely.mp3','./assets/audio/HTTP.mp3', './assets/audio/how-deep-is-your-loop.mp3',
-            './assets/audio/big-decimals.mp3', './assets/audio/classless-method.mp3','./assets/audio/int-in-a-box.mp3' , 
-            './assets/audio/chop-spaghetti.mp3', './assets/audio/HTML.mp3', './assets/audio/everybody.mp3']; // object storing paths for audio objects
+            './assets/audio/big-decimals.mp3', './assets/audio/chop-spaghetti.mp3']; // object storing paths for audio objects
 
     thumbnails = ['./assets/images/intro-bg.png', './assets/images/http-bg.jpg', './assets/images/how-deep-bg.jpg',
-                './assets/images/big-decimals-bg.png', './assets/images/classless-method-bg.jpg', './assets/images/int-bg.jpg',
-                './assets/images/chop-spaghetti-bg.jpg', './assets/images/HTML-bg.jpg', './assets/images/every-js-bg.jpg']; // object storing paths for album covers and backgrounds
+                './assets/images/big-decimals-bg.png', './assets/images/chop-spaghetti-bg.jpg']; // object storing paths for album covers and backgrounds
 
     songArtists = ['Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life',
-                'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life', 'Songs in the Code of Life',
                 'Songs in the Code of Life']; // object storing track artists
 
-    songTitles = ["Isn't C Lovely?", "HTTP", "How deep is your loop?", "B1G D3C1MAL$", "Classless Method()",
-                "1nt in a b0x ft. MC Da P-C", "chop spaghetti", "HTML", "Vue the World"]; // object storing track titles
+    songTitles = ["Isn't C Lovely?", "HTTP", "How deep is your loop?", "B1G D3C1MAL$", "chopped spaghetti"]; // object storing track titles
 
 // function where pp (play-pause) element changes based on playing boolean value - if play button clicked, change pp.src to pause button and call song.play() and vice versa.
 let playing = true;
